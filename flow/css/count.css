@@ -1,0 +1,118 @@
+@font-face {
+    src: url(../fonts/Gorditas-Bold.ttf);
+    font-family: gordita;
+}
+
+@font-face {
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-family: popbold;
+}
+
+@font-face {
+    src: url(../fonts/HomemadeApple-Regular.ttf);
+    font-family: apple;
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+    margin: 0px;
+    padding: 0px;
+}
+
+#pen {
+    font-family: popbold;
+    color: rgb(185, 185, 185);
+    text-align: center;
+    font-size: 50px;
+}
+
+
+#save {
+    font-family: popbold;
+    color: rgb(185, 185, 185);
+    text-align: center;
+    font-size: 50px;
+}
+
+#counter {
+    font-family: popbold;
+    color: rgb(185, 185, 185);
+    text-align: center;
+    font-size: 50px;
+}
+
+#countadd {
+    background-color: transparent;
+    border-color: rgb(255, 49, 34);
+    text-align: center;
+    font-family: popbold;
+    font-size: 50px;
+    color: rgb(227, 255, 125);
+    position: absolute;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+#countsub {
+    background-color: transparent;
+    border-color: rgb(255, 49, 34);
+    text-align: center;
+    font-family: popbold;
+    font-size: 50px;
+    color: rgb(227, 255, 125);
+    position: inherit;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+#countsave {
+    background-color: transparent;
+    border-color: rgb(255, 49, 34);
+    text-align: center;
+    font-family: popbold;
+    font-size: 50px;
+    color: rgb(227, 255, 125);
+    position: inherit;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+    border-radius: 20px;
+    border-style: solid;
+}
+
+#count2x {
+    background-color: transparent;
+    border-color: rgb(255, 49, 34);
+    text-align: center;
+    font-family: popbold;
+    font-size: 50px;
+    color: rgb(227, 255, 125);
+    position: inherit;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+    border-radius: 20px;
+    border-style: solid;
+}

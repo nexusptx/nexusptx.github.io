@@ -1,0 +1,187 @@
+@font-face {
+    src: url(../fonts/Gorditas-Bold.ttf);
+    font-family: gordita;
+}
+
+@font-face {
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-family: popbold;
+}
+
+@font-face {
+    src: url(../fonts/HomemadeApple-Regular.ttf);
+    font-family: apple;
+}
+
+body {
+    background-color: rgb(48, 48, 48);
+    padding: 0px;
+    margin: 0px;
+    --maincolor: #3eb8ff;
+    --border: #ff456a;
+    --bordercolor: #3eb8ff;
+    --basecolor: #deb98f;
+    --greybase: #8e8b8b;
+}
+#counter {
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    font-family: popbold;
+    font-size: 50px;
+    color: #3eb8ff;
+    position: absolute;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+    border-radius: 20px;
+    border-style: solid;
+
+}
+
+#genGradient {
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    font-family: popbold;
+    font-size: 50px;
+    color: #3eb8ff;
+    position: absolute;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    position: relative;
+    border-radius: 20px;
+    border-style: solid;
+
+}
+.borderDesign {
+    background: #fff;
+    margin: auto;
+    width: 500px;
+    margin-top: 334px;
+    padding: 30px;
+    line-height: 30px;
+    color: var(--greybase);
+    position: relative;
+    border-radius: 30px;
+    border-style: solid;
+    border-color: var(--basecolor);
+    transition: box-shadow 1000ms;
+    transition-delay: 200ms;
+}
+
+.h2border {
+    font-family: apple;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 700px;
+    text-align: center;
+    color: var(--greybase);
+    font-family: apple;
+}
+
+
+
+.borderDesign:hover {
+    box-shadow: 0 0 18px 5px var(--basecolor);
+    
+}
+
+
+.innerThumbnail {
+    border-color: white;
+    align-content: center;
+    border-spacing: solid;
+    border-radius: 5px;
+    padding-top: 30px;
+}
+
+
+@media (max-width: 700px) {
+	
+    .borderDesign {
+        background: #fff;
+        margin: auto;
+        width: 500px;
+        margin-top: 350px;
+        padding: 30px;
+        line-height: 30px;
+        color: var(--greybase);
+        position: relative;
+        border-radius: 30px;
+        border-style: solid;
+        border-color: var(--basecolor);
+        transition: box-shadow 1000ms;
+        transition-delay: 200ms;
+    }
+}
+
+@media (max-width: 600px) {
+	
+    .borderDesign {
+        background: #fff;
+        margin: auto;
+        width: 500px;
+        margin-top: 300px;
+        padding: 30px;
+        line-height: 30px;
+        color: var(--greybase);
+        position: relative;
+        border-radius: 30px;
+        border-style: solid;
+        border-color: var(--basecolor);
+        transition: box-shadow 1000ms;
+        transition-delay: 200ms;
+    }
+}
+
+
+
+/* striped lines */
+
+html::-webkit-scrollbar {
+    width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+    border: 2px solid var(--basecolor);
+    box-shadow: inset 1px 1px 5px black;
+}
+
+.scrollbar {
+    background-color: #F5F5F5;
+    float: left;
+    height: 300px;
+    margin-bottom: 25px;
+    margin-left: 22px;
+    margin-top: 40px;
+    width: 65px;
+    overflow-y: scroll;
+}
+
+.force-overflow {
+    min-height: 450px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Cabin+Condensed");
+.text text {
+    paint-order: stroke;
+    stroke: white;
+    stroke-width: 0.05px;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    font-size: 5px;
+    font-family: "Cabin Condensed", sans-serif;
+}
