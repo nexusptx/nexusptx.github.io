@@ -1,0 +1,99 @@
+@font-face {
+    src: url(../fonts/Gorditas-Bold.ttf);
+    font-family: gordita;
+}
+
+@font-face {
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-family: popbold;
+}
+
+@font-face {
+    src: url(../fonts/HomemadeApple-Regular.ttf);
+    font-family: apple;
+}
+
+body {
+    background-color: #141414;
+    margin: 0px;
+    padding: 0px;
+}
+
+#textInput {
+    font-family: popbold;
+    color: #727272;
+    border-color: transparent;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(231, 231, 231);
+    resize:none;
+    height: 300px;
+    width: 700px;
+}
+
+#slideVol {
+    font-family: popbold;
+    color: #727272;
+   border-radius: 5px;
+   border-color: transparent;
+   text-align: center;
+   font-size: 20px;
+   background-color: transparent;
+
+}
+
+#slideSpeed {
+    font-family: popbold;
+    color: #727272;
+   border-radius: 5px;
+   border-color: transparent;
+   text-align: center;
+   font-size: 20px;
+   background-color: transparent;
+
+}
+
+#center {
+    place-items: center;
+    display: grid;
+    margin: 100px;
+}
+#speak {
+    font-family: popbold;
+    color: #727272;
+   border-radius: 5px;
+   border-color: transparent;
+   text-align: center;
+   font-size: 20px;
+   background-color: transparent;
+}
+
+#stop {
+    font-family: popbold;
+    color: #727272;
+   border-radius: 5px;
+   border-color: transparent;
+   text-align: center;
+   font-size: 20px;
+   background-color: transparent;
+}
+
+#pause {
+    font-family: popbold;
+    color: #727272;
+   border-radius: 5px;
+   border-color: transparent;
+   text-align: center;
+   font-size: 20px;
+   background-color: transparent;
+}
+
+#resume {
+    font-family: popbold;
+    color: #727272;
+   border-radius: 5px;
+   border-color: transparent;
+   text-align: center;
+   font-size: 20px;
+   background-color: transparent;
+}
