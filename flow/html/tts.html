@@ -1,0 +1,41 @@
+
+    <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nexus#0783" />
+    <meta name="description" content="Hey my name is Nexus, a beginner web developer." />
+    <meta name="keywords" content="Hey my name is Nexus, a beginner web developer." />
+
+    <meta name="theme-color" content="#deb98f">
+    <link href="../css/tts.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../assets/logo.png">
+    <title>SpeakUp</title> 
+</head>
+
+    <body>
+        <div id="center">
+
+       
+            <textarea id="textInput"></textarea>
+
+            <div id="buttonRow">
+        <button id="speak" onclick="speak()">Speak</button>
+        <button id="stop" onclick="stop()">Stop</button>
+        <button id="resume" onclick="resume()">Resume</button>
+        <button id="pause" onclick="pause()">Pause</button>
+        <label for="volume" id="slideVol">Volume</label>
+        <input id="volume" type="range" min="0" max="1" step="0.1"> 
+        <label for="speed" id="slideSpeed">Speed</label>
+        <input id="speed" type="range" min="0" max="2" step="0.1"> 
+    </div>
+    </div>
+        <script src="../js/tts.js">
+        </script>
+    </body>
+
+</html>
+
+</html> 
