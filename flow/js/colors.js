@@ -30,5 +30,5 @@ function colorPage() {
 }
 
 function home() {
-	window.open('../index.html')
+	window.open('/index.html')
 }
