@@ -192,21 +192,20 @@ html::-webkit-scrollbar-thumb {
 }
 
 #white-side {
-  text-align: center;
+  
   font-size: 7rem;
   color: white;
   font-family: biotif;
 }
 
 #colored-side {
-  text-align: center;
   font-size: 7rem;
   color: #FF4F5F;
   font-family: biotif;
 }
 
 #my_job {
-  text-align: center;
+  
   font-size: 2rem;
   color: white;
   font-weight: 300;
@@ -215,35 +214,35 @@ html::-webkit-scrollbar-thumb {
 }
 
 #discord_logo {
-  position: relative;
+  
   height: 50px;
   align-items: center;
   margin: 10px;
 }
 
 #github_logo {
-  position: relative;
+ 
   height: 50px;
   align-items: center;
   margin: 10px;
 }
 
 #twitter_logo {
-  position: relative;
+  
   height: 50px;
   align-items: center;
   margin: 10px;
 }
 
 #email_logo {
-  position: relative;
+  
   height: 50px;
   align-items: center;
   margin: 10px;
 }
 
 #info_logo {
-  position: relative;
+  
   height: 50px;
   align-items: center;
   margin: 10px;
