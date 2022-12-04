@@ -33,6 +33,8 @@
   font-family: style;
 }
 body {
+    display: flex;
+justify-content: center;
   min-width: 960px;
     background-color: #181818;
     margin: auto;
