@@ -33,9 +33,7 @@
   font-family: style;
 }
 body {
-    display: flex;
-justify-content: center;
-  min-width: 960px;
+text-align: center;
     background-color: #181818;
     margin: auto;
     width: 640px; 
@@ -133,7 +131,14 @@ justify-content: center;
 }
 
 
-
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1.25em;
+    }
+}
 
 html::-webkit-scrollbar {
     width: 10px;
