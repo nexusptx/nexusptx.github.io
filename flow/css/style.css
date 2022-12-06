@@ -131,13 +131,19 @@ text-align: center;
 }
 
 
+h1 {
+  color: red;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 1.5em;
-    }
-    p {
-        font-size: 1.25em;
-    }
+  p {
+    text-align: left;
+  }
 }
 
 html::-webkit-scrollbar {
