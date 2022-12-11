@@ -96,10 +96,6 @@ text-align: center;
 }
 
 .borderDesign {
-  position:absolute;
-  top:100%;
-  left:50%;
-  margin-left:-100px;
   margin-top:-60px;
     background: #2E2E2E;
     margin: auto;
