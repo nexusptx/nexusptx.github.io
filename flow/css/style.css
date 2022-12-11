@@ -65,6 +65,7 @@ text-align: center;
 }
 
 .place-content-center {
+
   place-content: center;
   align-content: center;
   justify-content: center;
@@ -96,6 +97,7 @@ text-align: center;
 }
 
 .borderDesign {
+     display: flex;
   margin-top:-60px;
     background: #2E2E2E;
     margin: auto;
@@ -131,6 +133,7 @@ text-align: center;
 
 @media only screen and (max-width: 600px) {
 .borderDesign {
+     display: flex;
   margin-top:-60px;
     background: #2E2E2E;
     margin: auto;
