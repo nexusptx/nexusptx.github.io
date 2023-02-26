@@ -37,6 +37,8 @@ body {
   background-color: #1e1e1e;
   width: 100%;
   max-width: 640px;
+margin: auto;
+padding: 0;
 }
 
 .center {
