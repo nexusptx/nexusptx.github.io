@@ -48,13 +48,21 @@ padding: 0;
   align-items: center;
   height: 100vh;
 }
-
 #intro_text {
   color: #f8f8f8;
   font-size: 40px;
   font-family: biotif;
   transition: opacity 1s;
+  text-align: center; /* Add this line */
 }
+
+#footer {
+  color: #d63e3e;
+  font-family: vmbi;
+  font-size: 20px;
+  text-align: center;
+}
+
 
 .hide {
   opacity: 0;
@@ -120,6 +128,15 @@ padding: 0;
     font-size: 32px;
   }
 
+  #intro_text {
+    color: #f8f8f8;
+    font-size: 32px;
+    font-family: biotif;
+    transition: opacity 1s;
+    text-align: center; /* Add this line */
+  }
+  
+
   .button-container {
     flex-direction: column;
     align-items: center;
@@ -128,7 +145,7 @@ padding: 0;
 
   #skills,
   #aboutme,
-  #connect {
+  #connect, #gallery {
     font-size: 14px;
     padding: 8px 16px;
     margin: 5px;
