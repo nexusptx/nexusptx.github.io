@@ -33,9 +33,10 @@ connect.addEventListener('click', function() {
 
 
 function home() {
-  window.open("index.html")
+  window.location.href = "index.html";
 }
 
 function gallery() {
-  window.open("gallery.html")
+  window.location.href = "gallery.html";
 }
+
