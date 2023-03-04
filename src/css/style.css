@@ -1,0 +1,204 @@
+@font-face {
+  src: url(/assets/fonts/Comfortaa.ttf);
+  font-family: comfortaa;
+}
+
+@font-face {
+  src: url(/assets/fonts/Biotif-Bold.ttf);
+  font-family: biotif;
+}
+
+@font-face {
+  src: url(/assets/fonts/Anurati-Regular.otf);
+  font-family: anurati;
+}
+
+@font-face {
+
+  src: url(/assets/fonts/Posterama_2001_W04_SemiBold.ttf);
+  font-family: poster;
+}
+  
+  @font-face {
+    src: url(/assets/fonts/GRADIUS.ttf);
+    font-family: gradius;
+  }
+
+@font-face {
+  src: url(/assets/fonts/VictorMono-BoldItalic.ttf);
+  font-family: vmbi;
+}
+
+@font-face {
+    src: url(/assets/fonts/Poppins-Bold.ttf);
+    font-family: popbold;
+}
+body {
+  background-color: #1e1e1e;
+  height: 100vh;
+  margin: auto;
+  padding: 0;
+  cursor: none; /* hide normal cursor */
+  overflow: hidden;
+}
+
+
+.cursor{
+  height: 6vh;
+  width: 6vh;
+  background-color: white;
+  mix-blend-mode: difference;
+  border-radius: 100%;
+  position: absolute;
+  pointer-events: none;
+  z-index:99;
+  transform: translate(-50%,-50%);
+  transition-duration: .1s;
+  transition-timing-function: ease-out;
+  
+}
+
+
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#intro_text {
+  width: 100vh;
+  color: #f8f8f8;
+  font-size: 40px;
+  font-family: biotif;
+  transition: opacity 1s;
+  text-align: center; /* Add this line */
+}
+
+
+
+.hide {
+  opacity: 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+#skills,
+#aboutme,
+#connect, #gallery, #credits {
+  background-color: transparent;
+  border-color: transparent;
+  color: #666666;
+  font-size: 18px;
+  font-family: comfortaa;
+  margin: 10px;
+  padding: 10px 20px;
+  position: relative;
+  text-decoration: none;
+}
+
+#skills::before,
+#aboutme::before,
+#connect::before, #gallery:before, #credits:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #d63e3e;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+#skills:hover::before,
+#aboutme:hover::before,
+#connect:hover::before, #gallery:hover::before, #credits:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+
+#colored-side {
+  color: #d63e3e;
+  font-family: biotif;
+}
+
+#hyper {
+  color: #d63e3e;
+  text-decoration: none;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  #intro_text {
+    font-size: 32px;
+  }
+
+  #intro_text {
+    color: #f8f8f8;
+    font-size: 32px;
+    font-family: biotif;
+    transition: opacity 1s;
+    text-align: center; /* Add this line */
+  }
+  
+
+  .button-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  #skills,
+  #aboutme,
+  #connect, #gallery, #credits {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  #intro_text {
+    font-size: 24px;
+  }
+
+  #skills,
+  #aboutme,
+  #connect, #gallery, #credits {
+    font-size: 12px;
+    padding: 6px 12px;
+    margin: 5px;
+  }
+}
+
+ 
+
+@media only screen and (max-width: 600px) {
+  #time {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+}
+
+
+/* Change select background and text color on selection */
+::selection {
+  background-color: #d63e3e;
+  color: white;
+}
+
+/* Change select background and text color on selection for Firefox */
+::-moz-selection {
+  background-color: #d63e3e;
+  color: white;
+}
