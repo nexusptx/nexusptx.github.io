@@ -30,7 +30,7 @@ connect.addEventListener('click', function() {
   
     intro.classList.add('hide');
     setTimeout(function() {
-      intro.innerHTML = "My Discord is <span id='colored-side'><a href='https://discord.com/users/714821119080923177' id='hyper'>Nexus#0783</a></span> & my email is <span id='colored-side'><a href='mailto:nexusptx@gmail.com' id='hyper'>nexusptx@gmail.com</a></span>.";
+      intro.innerHTML = "My Discord is <span id='colored-side'><a href='https://discord.com/users/714821119080923177' id='hyper'>Nexus#6858</a></span> & my email is <span id='colored-side'><a href='mailto:nexusptx@gmail.com' id='hyper'>nexusptx@gmail.com</a></span>.";
       intro.classList.remove('hide');
     }, 1000);z
 });
