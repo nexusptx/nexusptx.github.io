@@ -38,6 +38,7 @@ body {
   margin: auto;
   padding: 0;
   cursor: none; /* hide normal cursor */
+  overflow: hidden;
 }
 
 #footer {
