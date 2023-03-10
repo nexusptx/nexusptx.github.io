@@ -33,14 +33,12 @@
     src: url(/assets/fonts/Poppins-Bold.ttf);
     font-family: popbold;
 }
-body, html {
+body {
   background-color: #1e1e1e;
   margin: auto;
   padding: 0;
   cursor: none; /* hide normal cursor */
-  overflow-x: hidden;
 }
-
 
 #footer {
   font-family: comfortaa;
@@ -77,8 +75,6 @@ body, html {
 }
 
 .button-container {
-    overflow-x: hidden;
-  overflow-y: scroll;
   width: 100vh;
   display: flex;
   justify-content: center;
@@ -143,9 +139,21 @@ body, html {
   }
 }
 
+@media (max-width: 480px) {
+body {
+  width: 100%;
+  max-width: 640px;
+margin: auto;
+padding: 0;
+}
+ #gallery {
+    font-size: 12px;
+    padding: 6px 12px;
+    margin: 5px;
+  }
+}
+
 .gallery {
-  overflow-x: hidden;
-  overflow-y: scroll;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 10px;
@@ -157,8 +165,9 @@ body, html {
   width: 100%;
   height: auto;
   object-fit: cover;
-  border: 5px solid #181718;
-  transition: border-color 0.3s ease, transform 0.5s ease;
+  border: 5px solid #181718; transition: border-color 0.3s ease; 
+  transition: transform 0.5s ease;
+
 }
 
 .gallery img.square {
@@ -170,7 +179,6 @@ body, html {
   border-color: #d63e3e;
   transform: scale(1.1);
 }
-
 .gallery a {
   display: block;
   position: relative;
@@ -179,63 +187,18 @@ body, html {
 
 .gallery a:hover {
   border-color: #d63e3e;
+  
 }
 
 @media only screen and (max-width: 768px) {
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    margin-top: 30px;
-  }
-
-  .gallery img {
-    border-width: 3px;
-  }
-
-  .gallery a {
-    border-width: 3px;
-  }
-  body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-  }
-  
-  
-}
-
-
-@media (max-width: 480px) {
-  body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-  }
-  
- #gallery {
-    font-size: 12px;
-    padding: 6px 12px;
-    margin: 5px;
-  }
-
-  .gallery {  
-    display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
-    grid-gap: 10px;
-    margin-top: 50px;
-    justify-content: center; /* center horizontally */
-    align-items: center; /* center vertically */
   }
 }
-
 
 
 
 #goback {
-  overflow: visible;
   background-color: transparent;
   border: none;
   color: #666666;
