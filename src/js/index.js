@@ -12,7 +12,7 @@ skills.addEventListener('click', function() {
   
     intro.classList.add('hide');
     setTimeout(function() {
-      intro.innerHTML = "I have a decent understanding of using <span id='colored-side'><a href='https://developer.mozilla.org/en-US/docs/Web/javascript' id='hyper'>JS</a></span>, although I am pretty good at <span id='colored-side'><a href='https://discord.js.org/#/' id='hyper'>discord.js</a></span>.";
+      intro.innerHTML = "I have a decent understanding of using <span id='colored-side'><a href='https://developer.mozilla.org/en-US/docs/Web/javascript' id='hyper'>JS</a></span> and I'm pretty good at <span id='colored-side'><a href='https://discord.js.org/#/' id='hyper'>discord.js</a></span>.";
       intro.classList.remove('hide');
     }, 1000);
 });
@@ -39,7 +39,7 @@ credits.addEventListener('click', function() {
   
   intro.classList.add('hide');
   setTimeout(function() {
-    intro.innerHTML = "The gallery layout is from the <span id='colored-side'>Internet</a></span>, the rest is made by <span id='colored-side'><a href='https://discord.com/users/714821119080923177' id='hyper'>Nexus</a></span>, see the code on <span id='colored-side'><a href='https://github.com/nexusptx/nexusptx.github.io' id='hyper'>Github</a></span>.";
+    intro.innerHTML = "The gallery layout has been fine tuned by me, still <span id='colored-side'>Internet</a></span>80%<span id='colored-side'> left to fine tune. The rest of this website is made by <a href='https://discord.com/users/714821119080923177' id='hyper'>Nexus</a></span>, see the code on <span id='colored-side'><a href='https://github.com/nexusptx/nexusptx.github.io' id='hyper'>Github</a></span>.";
     intro.classList.remove('hide');
   }, 1000);z
 });
