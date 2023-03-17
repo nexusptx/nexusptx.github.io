@@ -39,7 +39,7 @@ credits.addEventListener('click', function() {
   
   intro.classList.add('hide');
   setTimeout(function() {
-    intro.innerHTML = "The custom cursor is from <span id='colored-side'><a href='https://github.com/PurpleCube/start' id='hyper'>PurpleCube</a></span>, the rest is made by <span id='colored-side'><a href='https://discord.com/users/714821119080923177' id='hyper'>Nexus</a></span>, see the code on <span id='colored-side'><a href='https://github.com/nexusptx/nexusptx.github.io' id='hyper'>Github</a></span>.";
+    intro.innerHTML = "The gallery layout is from the <span id='colored-side'>Internet</a></span>, the rest is made by <span id='colored-side'><a href='https://discord.com/users/714821119080923177' id='hyper'>Nexus</a></span>, see the code on <span id='colored-side'><a href='https://github.com/nexusptx/nexusptx.github.io' id='hyper'>Github</a></span>.";
     intro.classList.remove('hide');
   }, 1000);z
 });
@@ -49,21 +49,3 @@ credits.addEventListener('click', function() {
 function gallery() {
   window.location.href = "src/html/gallery.html";
 }
-
-const cursor = document.querySelector('.cursor');
-document.addEventListener('mousemove', e => {
-  cursor.style.left = e.clientX + 'px';
-  cursor.style.top = e.clientY + 'px';
-});
-
-document.addEventListener('mousedown', () => {
-  cursor.classList.add('active');
-});
-
-document.addEventListener('mouseup', () => {
-  cursor.classList.remove('active');
-});
-
-document.addEventListener('mouseleave', () => {
-  cursor.classList.remove('active');
-});
