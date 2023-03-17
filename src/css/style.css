@@ -38,24 +38,6 @@
     height: 100vh;
     margin: auto;
     padding: 0;
-    cursor: none; /* hide normal cursor */
-    overflow: hidden;
-  }
-  
-  
-  .cursor{
-    height: 6vh;
-    width: 6vh;
-    background-color: white;
-    mix-blend-mode: difference;
-    border-radius: 100%;
-    position: absolute;
-    pointer-events: none;
-    z-index:99;
-    transform: translate(-50%,-50%);
-    transition-duration: .1s;
-    transition-timing-function: ease-out;
-    
   }
   
   
