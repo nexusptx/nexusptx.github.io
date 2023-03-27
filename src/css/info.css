@@ -1,0 +1,178 @@
+@font-face {
+    src: url(/assets/fonts/Comfortaa.ttf);
+    font-family: comfortaa;
+  }
+  
+  @font-face {
+    src: url(/assets/fonts/Biotif-Bold.ttf);
+    font-family: biotif;
+  }
+  
+  @font-face {
+    src: url(/assets/fonts/Anurati-Regular.otf);
+    font-family: anurati;
+  }
+  
+  @font-face {
+  
+    src: url(/assets/fonts/Posterama_2001_W04_SemiBold.ttf);
+    font-family: poster;
+  }
+    
+    @font-face {
+      src: url(/assets/fonts/GRADIUS.ttf);
+      font-family: gradius;
+    }
+  
+  @font-face {
+    src: url(/assets/fonts/VictorMono-BoldItalic.ttf);
+    font-family: vmbi;
+  }
+  
+  @font-face {
+      src: url(/assets/fonts/Poppins-Bold.ttf);
+      font-family: popbold;
+  }
+  
+  body {
+    background-image: linear-gradient(to right,#3f4cff, #34ff71);
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+  }
+  .intro-container {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid rgba(255, 252, 252, 0.5);
+    border-radius: 20px;
+    max-width: 400px;
+    height: 240px;
+    margin: 50px auto;
+    transition: all 3s ease;
+  }
+  
+  .intro-container:hover {
+    display: flex;
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px solid rgba(255, 252, 252, 0.5);
+    border-radius: 20px;
+    max-width: 400px;
+    height: 500px;
+    margin: 50px auto;
+    transition: all 1s ease;
+  }
+  
+  .intro-container img {
+    position: absolute;
+    border: 5px solid rgb(255, 252, 252);
+    border-radius: 50%;
+    top: -60px; /* adjust this value to position the image on the top border */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .intro-container:hover img {
+    position: absolute;
+    border: 5px solid rgb(255, 252, 252);
+    border-radius: 50%;
+    top: -90px; /* adjust this value to position the image on the top border */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+  }
+  
+  #intro_text {
+    color: #272727;
+    font-size: 30px; /* adjust the font size as needed */
+    font-family: biotif;
+    text-align: center;
+    padding: 10px;
+    display: inline-block;
+    line-height: 1.4em;
+    z-index: 2;
+    word-wrap: break-word; /* Add this line */
+    pointer-events: none;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  
+
+
+
+  .iconContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    }
+    
+    .iconItem {
+    font-family: biotif;
+    color: rgb(155, 155, 155);
+    font-size: 20px;
+
+    }
+    
+#homebutton {
+    font-family: biotif;
+    color: rgb(155, 155, 155);
+    font-size: 20px;
+    border-color: transparent;
+    background-color: transparent;
+}
+    p.iconItem {
+      grid-column: 4 / 6;
+    }
+
+
+
+
+  .intro-container:hover {
+    background-color: #f9f9f9;
+    border-color: linear-gradient(right, #5aa7ff, rgb(141, 71, 255));
+    box-shadow: 0 0 10px #5aa7ff;
+    transition: all 1s ease;
+  }
+  
+
+
+  
+  #colored-side {
+    color: #d63e3e;
+    font-family: biotif;
+  }
+  
+  #green-side {
+    color: #1ed760;
+    font-family: biotif;
+  }
+  
+  #hyper {
+    color: #d63e3e;
+    text-decoration: none;
+    pointer-events: auto
+  }
+
+  #gallery-link {
+    color: #4d4d4d;
+    text-decoration: none;
+    pointer-events: auto
+  }
+  
