@@ -18,3 +18,8 @@ homebutton.addEventListener('click', function() {
   window.location.href = "../../index.html";
 });
 
+
+let h1 = '#' + Math.floor(Math.random()*16777215).toString(16);
+let h2 = '#' + Math.floor(Math.random()*16777215).toString(16);
+
+document.body.style.backgroundImage = `linear-gradient(to right, ${h1}, ${h2})`;
